@@ -1,0 +1,44 @@
+{
+	"info": {
+		"_postman_id": "90981f6b-9621-402d-864f-347e271a8d53",
+		"name": "Array-Match-Sum",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "ifPairExistWithGivenSumSorting",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"arr\":  [12,3,5,1,9],\r\n    \"sum\": 10\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/ArraySum",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"ArraySum"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
